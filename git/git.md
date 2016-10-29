@@ -36,3 +36,11 @@ git diff master
 ```
 git diff --cached
 ```
+## 从暂存区删除本地的add
+```
+git reset HEAD file
+```
+##拉回最新代码 从历史区将代码覆盖掉工作区 
+```
+git checkout xxx
+```
